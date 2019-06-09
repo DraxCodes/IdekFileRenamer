@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWarsApiSharp", "StarWarsApiSharp\StarWarsApiSharp.csproj", "{D4994334-A558-4F2A-B207-88B9A45D5522}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWarsApiSharp.Tests", "StarWarsApiSharp.Tests\StarWarsApiSharp.Tests.csproj", "{6B9DD7C0-687D-4711-B45B-9B4149C10AFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4994334-A558-4F2A-B207-88B9A45D5522}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4994334-A558-4F2A-B207-88B9A45D5522}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4994334-A558-4F2A-B207-88B9A45D5522}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4994334-A558-4F2A-B207-88B9A45D5522}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B9DD7C0-687D-4711-B45B-9B4149C10AFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B9DD7C0-687D-4711-B45B-9B4149C10AFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B9DD7C0-687D-4711-B45B-9B4149C10AFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B9DD7C0-687D-4711-B45B-9B4149C10AFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66544CEA-BB6B-4097-8DF4-F9DD8876250D}
+	EndGlobalSection
+EndGlobal
