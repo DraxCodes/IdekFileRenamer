@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWarsApiSharp", "StarWar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWarsApiSharp.Tests", "StarWarsApiSharp.Tests\StarWarsApiSharp.Tests.csproj", "{6B9DD7C0-687D-4711-B45B-9B4149C10AFB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileRenamer", "FileRenamer\FileRenamer.csproj", "{EF1C1B2A-4485-4177-A43B-B02830EC7CC2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6B9DD7C0-687D-4711-B45B-9B4149C10AFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B9DD7C0-687D-4711-B45B-9B4149C10AFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B9DD7C0-687D-4711-B45B-9B4149C10AFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF1C1B2A-4485-4177-A43B-B02830EC7CC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF1C1B2A-4485-4177-A43B-B02830EC7CC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF1C1B2A-4485-4177-A43B-B02830EC7CC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF1C1B2A-4485-4177-A43B-B02830EC7CC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

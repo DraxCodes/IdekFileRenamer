@@ -8,5 +8,6 @@ namespace StarWarsApiSharp
     public interface IStarwarsApiClient
     {
         Starship GetStarship(int id);
+        string SerializeObject(object obj);
     }
 }
