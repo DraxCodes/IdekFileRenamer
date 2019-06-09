@@ -1,4 +1,5 @@
 ﻿using System.IO;
+using System.Linq;
 using StarWarsApiSharp;
 
 namespace FileRenamer
@@ -6,6 +7,7 @@ namespace FileRenamer
     public class FileRenamer
     {
         private readonly IStarwarsApiClient _swApiClient;
+        private const string DirectoryPath = "./RandomFile";
         public FileRenamer(IStarwarsApiClient swApiClient)
         {
             _swApiClient = swApiClient;
@@ -15,7 +17,11 @@ namespace FileRenamer
         {
             var ship = _swApiClient.GetStarship(starshipId);
             var shipAsJson = _swApiClient.SerializeObject(ship);
-            File.AppendAllText($"{ship.Name}.json", shipAsJson);
+            Directory.CreateDirectory(DirectoryPath);
+            var files = Directory.GetFiles(DirectoryPath);
+            var jsonFile = files.FirstOrDefault(x => x.EndsWith(".json"));
+            if (jsonFile != null) { File.Delete(jsonFile); }
+            File.AppendAllText($"{DirectoryPath}/{ship.Name}.json", shipAsJson);
         }
     }
 }
