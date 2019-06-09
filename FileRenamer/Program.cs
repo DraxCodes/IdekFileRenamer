@@ -21,7 +21,7 @@ namespace FileRenamer
 
             Log("Renaming File & Writing new Contents");
             await Task.Delay(3000);
-            services.GetRequiredService<FileRenamer>().ChangeFileNameAndContents(10);
+            services.GetRequiredService<FileRenamer>().ChangeFileNameAndContents(11);
 
             Log($"Done! File can be found: {Directory.GetCurrentDirectory()}");
             Log("Press any key to exit.");
